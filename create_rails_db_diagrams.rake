@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+# https://pastebin.com/gFFnBWgU
 
 desc 'Create diagrams based on database current schema'
 namespace :db do # rubocop:disable Metrics/BlockLength
