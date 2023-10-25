@@ -1,0 +1,20 @@
+sql_custom_sort_order_by.txt
+https://www.geeksforgeeks.org/how-to-custom-sort-in-sql-order-by-clause/
+https://www.geeksforgeeks.org/using-case-in-order-by-clause-to-sort-records-by-lowest-value-of-2-columns-in-sql/
+
+SELECT * FROM student_marks
+ORDER BY CASE
+           WHEN stu_branch = 'C.S.E' then 1
+           WHEN stu_branch = 'I.T' then 2 
+           WHEN stu_branch = 'E.C.E' then 3
+           WHEN stu_branch = 'I.C.E' then 4
+           WHEN stu_branch = 'E.E.E' then 5
+         END ASC;
+
+
+
+SELECT * FROM demo_table
+ORDER BY CASE  
+           WHEN  APPLE< ORANGE THEN APPLE
+           ELSE ORANGE
+         END;
