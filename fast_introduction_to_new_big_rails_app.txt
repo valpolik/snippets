@@ -1,4 +1,5 @@
 fast_introduction_to_new_big_rails_app.txt
+https://github.com/valpolik/snippets/blob/main/create_rails_db_diagrams.rake
 
 
 
